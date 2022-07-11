@@ -10,8 +10,8 @@ class Contacts extends Component {
            <div className="contacts conteiner">
             <h2>Contacts</h2>
                <ul>
-                   <li>phone +375 (44) 5970340</li>
-                   <li>e-mail:  tat.bandelikova@gmail.com</li>
+                   <li>phone +XXX (XX) XXXXXXX</li>
+                   <li>e-mail:  XX@gmail.com</li>
                    <li>https://www.linkedin.com/in/tatsiana-bandelikova/</li>
                    <li>https://github.com/tbandelikova</li>
                 </ul>
