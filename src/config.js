@@ -1,0 +1,1 @@
+export const logoURL = "https://img.freepik.com/premium-vector/cat-vector-kitten-calico-cartoon-character_71328-128.jpg?w=2000";

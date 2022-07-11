@@ -1,0 +1,29 @@
+.main {
+    background-color: var(--beige);
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 2rem;
+}
+
+.main img {
+    width: 20rem;
+}
+
+.main-skills {
+    padding-left: 2rem;
+    border: 1px solid var(--thistle);
+    
+}
+
+a {
+    text-decoration: none;
+    color: var(--raisin-black);
+}
+
+a:hover {
+    color: var(--midnight-blue);
+}
+
+ul {
+    list-style-type: none;
+}

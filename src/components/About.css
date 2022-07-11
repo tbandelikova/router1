@@ -1,0 +1,9 @@
+.selfInfo {
+    max-width: 90%;
+    margin:auto;
+    margin-top: 1rem;
+    padding: 1rem 5rem;
+    background-color: var(--thistle);
+    border: 1px solid var(--midnight-blue);
+    border-radius: 3rem;
+}

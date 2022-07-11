@@ -1,0 +1,9 @@
+.contacts {
+    max-width: 50%;
+    margin:auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: var(--beige);
+    border: 1px solid var(--midnight-blue);
+    border-radius: 3rem;
+}
