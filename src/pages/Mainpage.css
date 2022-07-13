@@ -15,9 +15,14 @@
     
 }
 
+.main-skills li {
+    font-weight: 600;
+    line-height: 2;
+    font-style: italic;
+}
+
 a {
     text-decoration: none;
-    color: var(--raisin-black);
 }
 
 a:hover {
