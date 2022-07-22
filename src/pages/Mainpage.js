@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./Mainpage.css";
 import { Header } from "../components/Header";
-import Portreit from "../img/portreit.png";
+import Frame from "../img/portreit.png";
+import Pic from "../img/img.png";
 
 class Mainpage extends Component {
 
@@ -11,7 +12,10 @@ class Mainpage extends Component {
             <>
                 <Header />
                 <div className="main conteiner">
-                    <img src={Portreit} alt="profile foto" />
+                    <div className="main-portreit">
+                    <img className="frame" src={Frame} alt="profile frame" />
+                    <img className="portreit" src={Pic} alt="profile pic" />
+                    </div>
                     <div className="main-text">
                         <h1>Bandelikova Tatiana</h1>
                         <p>I'm taking my first steps in <b>Front-End</b>, willing to learn new skills and not afraid to work

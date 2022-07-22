@@ -5,8 +5,16 @@
     gap: 2rem;
 }
 
-.main img {
+.frame {
     width: 20rem;
+
+}
+
+.portreit {
+    width: 15rem;
+    position: relative;
+    top: -26rem;
+    left: 3rem;
 }
 
 .main-skills {
