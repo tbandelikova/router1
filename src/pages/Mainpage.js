@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Mainpage.css";
 import { Header } from "../components/Header";
-import Frame from "../img/portreit.png";
 import Pic from "../img/img.png";
 
 class Mainpage extends Component {
@@ -13,11 +12,10 @@ class Mainpage extends Component {
                 <Header />
                 <div className="main conteiner">
                     <div className="main-portreit">
-                    <img className="frame" src={Frame} alt="profile frame" />
-                    <img className="portreit" src={Pic} alt="profile pic" />
+                        <img className="portreit" src={Pic} alt="profile pic" />
                     </div>
                     <div className="main-text">
-                        <h1>Bandelikova Tatiana</h1>
+                        <h1>Tatiana Bandelikova</h1>
                         <p>I'm taking my first steps in <b>Front-End</b>, willing to learn new skills and not afraid to work
                             hard.</p>
                         <p>During my studies in <b>Algoritmika Bootcamp Course</b> I worked with
@@ -39,11 +37,16 @@ class Mainpage extends Component {
                         <ul>
                             <li>HTML/CSS</li>
                             <li>JavaScript</li>
-                            <li>React, Redux</li>
-                            <li>Node.js, Express</li>
+                            <li>React</li>
+                            <li>Redux</li>
+                            <li>Node.js</li>
+                            <li>Express</li>
                             <li>MySQL</li>
                             <li>Bootstrap</li>
-                            <li>GitHub, VSCode, CodeSandbox, Postman</li>
+                            <li>GitHub</li>
+                            <li>VSCode</li>
+                            <li>CodeSandbox</li>
+                            <li>Postman</li>
                         </ul>
                     </div>
                 </div>

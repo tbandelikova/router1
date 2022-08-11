@@ -13,7 +13,7 @@ class Examples extends Component {
                 <div className="example">
                     <div className="inner">
                         <h2>{item.title}</h2>
-                        <a href={item.link} target="_blank" rel="noreferrer">{item.link}</a>
+                        <i><a href={item.link} target="_blank" rel="noreferrer">{item.link}</a></i>
                         <hr></hr>
                         <p>{item.about}</p>
                     </div>

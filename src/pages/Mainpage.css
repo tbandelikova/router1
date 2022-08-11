@@ -1,20 +1,22 @@
 .main {
     background-color: var(--beige);
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     gap: 2rem;
+    height: 81vh;
+    padding: 0 1.5%;
 }
-
-.frame {
-    width: 20rem;
-
+.main-portreit {
+    background-image: url(../img/portreit.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
 }
-
-.portreit {
-    width: 15rem;
-    position: relative;
-    top: -26rem;
-    left: 3rem;
+.main-portreit img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
 }
 
 .main-skills {
@@ -27,6 +29,12 @@
     font-weight: 600;
     line-height: 2;
     font-style: italic;
+    transition: transform 0.5s ease;
+    cursor: default;
+}
+.main-skills li:hover {
+    transform: scale(0.9);
+    color: var(--midnight-blue);
 }
 
 a {
@@ -39,4 +47,23 @@ a:hover {
 
 ul {
     list-style-type: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .main {
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+    .main-portreit {
+        display: none;
+    }
+    .main-skills ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-skills ul li {
+        margin-right: 5%;
+    }
 }

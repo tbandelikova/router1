@@ -1,9 +1,14 @@
 .contacts {
-    max-width: 50%;
-    margin:auto;
-    margin-top: 2rem;
-    padding: 2rem;
+    width: 50%;
+    margin:2rem auto;
+    padding: 5%;
     background-color: var(--beige);
     border: 1px solid var(--midnight-blue);
     border-radius: 3rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .contacts {
+        width: 90%;
+    }
 }
