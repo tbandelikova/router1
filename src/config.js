@@ -1,4 +1,6 @@
 export const logoURL = "https://img.freepik.com/premium-vector/cat-vector-kitten-calico-cartoon-character_71328-128.jpg?w=2000";
+export const menuList = ['Home', 'About', 'Contacts', 'Examples'];
+export const skills = ['HTML/CSS', 'JavaScript', 'React', 'Redux', 'Node.js','Express', 'MySQL', 'Bootstrap', 'GitHub', 'VSCode', 'CodeSandbox', 'Postman',];
 export const dataExamples = [
     {
         title: "Каталог драгоценных монет",

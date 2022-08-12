@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Mainpage.css";
 import { Header } from "../components/Header";
 import Pic from "../img/img.png";
+import {skills} from "../config";
 
 class Mainpage extends Component {
 
@@ -35,18 +36,9 @@ class Mainpage extends Component {
                     <div className="main-skills">
                         <h2>Skills</h2>
                         <ul>
-                            <li>HTML/CSS</li>
-                            <li>JavaScript</li>
-                            <li>React</li>
-                            <li>Redux</li>
-                            <li>Node.js</li>
-                            <li>Express</li>
-                            <li>MySQL</li>
-                            <li>Bootstrap</li>
-                            <li>GitHub</li>
-                            <li>VSCode</li>
-                            <li>CodeSandbox</li>
-                            <li>Postman</li>
+                            {skills.map((item) => (
+                                <li>{item}</li>
+                            ))}
                         </ul>
                     </div>
                 </div>
