@@ -3,6 +3,12 @@ import { dataExamples } from "../config";
 import "./Examples.css";
 
 class Examples extends Component {
+    handleClick = (e) => {
+        e.target.classList.toggle('closer');
+        e.target.style.cursor = e.target.classList.contains('closer') ?
+        'zoom-out' : 'zoom-in';
+    }
+
     render() {
         return (
             <>
@@ -17,7 +23,8 @@ class Examples extends Component {
                     </div>
                     <div className="inner grid">
                         {item.image.map((i, index) => (
-                            <img src={i} alt={i} key={index} />
+                            <img src={i} alt={i} key={index}
+                                onClick={this.handleClick} />
                             ))
                             }
                     </div>
