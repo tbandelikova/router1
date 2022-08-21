@@ -40,5 +40,6 @@ h2 {
 }
 
 .conteiner {
-  margin: 0.5rem auto;
+  margin: 1rem auto;
+  overflow: hidden;
 }
