@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { Header } from "./components/Header";
 import Mainpage from "./pages/Mainpage";
 import About from "./components/About";
 import Contacts from "./components/Contacts";
@@ -7,6 +8,7 @@ import Examples from "./components/Examples";
 function App() {
   return (
     <div className="App">
+      <Header />
       <Routes>
       <Route path='/' element={<Mainpage />} />
       <Route path='/about' element={<About />} />

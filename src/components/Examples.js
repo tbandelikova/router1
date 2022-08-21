@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Header } from "./Header";
 import { dataExamples } from "../config";
 import "./Examples.css";
 
@@ -7,10 +6,9 @@ class Examples extends Component {
     render() {
         return (
             <>
-            <Header />
            <div className="examples conteiner">
-               {dataExamples.map((item) => (
-                <div className="example">
+               {dataExamples.map((item, index) => (
+                <div className="example" key={index}>
                     <div className="inner">
                         <h2>{item.title}</h2>
                         <i><a href={item.link} target="_blank" rel="noreferrer">{item.link}</a></i>
@@ -18,8 +16,8 @@ class Examples extends Component {
                         <p>{item.about}</p>
                     </div>
                     <div className="inner grid">
-                        {item.image.map((i) => (
-                            <img src={i} alt={i} />
+                        {item.image.map((i, index) => (
+                            <img src={i} alt={i} key={index} />
                             ))
                             }
                     </div>

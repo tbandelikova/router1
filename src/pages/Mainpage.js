@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Mainpage.css";
-import { Header } from "../components/Header";
 import Pic from "../img/img.png";
 import {skills} from "../config";
 
@@ -10,7 +9,6 @@ class Mainpage extends Component {
 
         return (
             <>
-                <Header />
                 <div className="main conteiner">
                     <div className="main-portreit">
                         <img className="portreit" src={Pic} alt="profile pic" />
@@ -36,8 +34,8 @@ class Mainpage extends Component {
                     <div className="main-skills">
                         <h2>Skills</h2>
                         <ul>
-                            {skills.map((item) => (
-                                <li>{item}</li>
+                            {skills.map((item, intex) => (
+                                <li key={intex}>{item}</li>
                             ))}
                         </ul>
                     </div>
