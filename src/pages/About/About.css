@@ -1,0 +1,10 @@
+.selfInfo {
+  max-width: 90%;
+  padding: 1% 5%;
+  background-color: var(--thistle);
+  border: 1px solid var(--midnight-blue);
+  border-radius: 3rem;
+}
+.selfInfo span {
+  font-weight: bold;
+}
