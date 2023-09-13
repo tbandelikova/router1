@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import { logoURL } from '../data';
 import './Header.css';
@@ -34,16 +34,16 @@ export function Header() {
       >
         <ul onClick={matches ? menuToggle : undefined}>
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <NavLink to="/about">About</NavLink>
           </li>
           <li>
-            <Link to="/contacts">Contacts</Link>
+            <NavLink to="/contacts">Contacts</NavLink>
           </li>
           <li>
-            <Link to="/examples">Examples</Link>
+            <NavLink to="/examples">Examples</NavLink>
           </li>
         </ul>
       </div>
