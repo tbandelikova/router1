@@ -12,8 +12,8 @@ class Examples extends Component {
 
   render() {
     return (
-      <>
-        <div className="examples conteiner">
+      <div className="container">
+        <div className="examples">
           {dataExamples.map((item, index) => (
             <div className="example" key={index}>
               <div className="inner">
@@ -34,7 +34,7 @@ class Examples extends Component {
             </div>
           ))}
         </div>
-      </>
+      </div>
     );
   }
 }

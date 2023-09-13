@@ -39,7 +39,8 @@ h2 {
   margin-bottom: 1rem;
 }
 
-.conteiner {
+.container {
+  max-width: 80rem;
   margin: 1rem auto;
-  overflow: hidden;
+  padding: 0 1rem;
 }

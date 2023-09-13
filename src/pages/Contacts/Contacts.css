@@ -1,12 +1,12 @@
 .contactsBackground {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   height: 80vh;
 }
 .contacts {
-  width: 50%;
+  width: 60%;
   padding: 5%;
   line-height: 2;
   background-color: var(--thistle);

@@ -4,8 +4,8 @@ import './About.css';
 class About extends Component {
   render() {
     return (
-      <>
-        <div className="selfInfo conteiner">
+      <div className="container">
+        <div className="selfInfo">
           <h2>Experience</h2>
           <table>
             <tbody>
@@ -64,7 +64,7 @@ class About extends Component {
             </tbody>
           </table>
         </div>
-      </>
+      </div>
     );
   }
 }

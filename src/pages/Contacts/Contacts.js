@@ -4,8 +4,8 @@ import './Contacts.css';
 class Contacts extends Component {
   render() {
     return (
-      <>
-        <div className="contactsBackground conteiner">
+      <div className="container">
+        <div className="contactsBackground">
           <div className="contacts">
             <h2>Contacts</h2>
             <ul>
@@ -32,7 +32,7 @@ class Contacts extends Component {
             </ul>
           </div>
         </div>
-      </>
+      </div>
     );
   }
 }

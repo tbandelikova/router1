@@ -6,8 +6,8 @@ import { skills } from '../../data';
 class Mainpage extends Component {
   render() {
     return (
-      <>
-        <div className="main conteiner">
+      <div className="container">
+        <div className="main">
           <div className="main-portreit">
             <div className="main-portreit-inner">
               <img className="portreit" src={Pic} alt="profile pic" />
@@ -49,7 +49,7 @@ class Mainpage extends Component {
             </ul>
           </div>
         </div>
-      </>
+      </div>
     );
   }
 }
