@@ -22,9 +22,11 @@ class About extends Component {
                 </td>
               </tr>
               <tr>
-                <span>
-                  In my recent employment history I work as an accountant.
-                </span>
+                <td>
+                  <span>
+                    In my recent employment history I work as an accountant.
+                  </span>
+                </td>
               </tr>
               <tr>
                 <td>April 2016 – June 2022</td>

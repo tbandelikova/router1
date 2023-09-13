@@ -29,7 +29,7 @@ export function Header() {
         <img src={logoURL} alt="logo" />
       </div>
       <div
-        className={!matches ? 'navbar-menu' : 'navbar-menu-mobile'}
+        className={!matches ? "navbar-menu" : "navbar-menu-mobile"}
         id="menu-mobile"
       >
         <ul onClick={matches ? menuToggle : undefined}>
