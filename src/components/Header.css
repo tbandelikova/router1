@@ -29,10 +29,11 @@
   font-weight: bold;
 }
 .navbar-menu-mobile {
-  display: none;
   position: fixed;
   top: 7em;
   right: 0;
+  transform: translateX(105%);
+  transition: all 0.3s ease;
   width: 90%;
   height: 100%;
   background-color: white;
@@ -40,7 +41,7 @@
   box-shadow: 0px 2px 7px 3px #00000091;
 }
 .show-menu {
-  display: block;
+  transform: translate(0, 0);
 }
 .navbar-menu-mobile ul {
   line-height: 3;
