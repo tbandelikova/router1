@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Mainpage.css';
-import Pic from '../../assets/img/img.png';
+import Pic from '../../assets/img.png';
 import { skills } from '../../data';
 
 class Mainpage extends Component {
