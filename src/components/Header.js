@@ -1,9 +1,9 @@
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { logoURL } from '../data';
 import './Header.css';
 
-export function Header() {
+const Header = () => {
   const [matches, setMatches] = useState(
     window.matchMedia('(min-width: 320px) and (max-width: 768px)').matches
   );
@@ -49,4 +49,6 @@ export function Header() {
       </div>
     </div>
   );
-}
+};
+
+export default Header;
